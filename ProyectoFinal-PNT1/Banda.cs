@@ -12,5 +12,7 @@ namespace ProyectoFinal_PNT1
         public int idBanda { get; set; }
 
         public ArrayList recitales { get; set; }
+
+        public int prueba { get; set; }
     }
 }
