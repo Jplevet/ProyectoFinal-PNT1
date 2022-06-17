@@ -7,12 +7,11 @@ namespace ProyectoFinal_PNT1
 {
     class Banda
     {
+        public int id { get; set; }
+
         public String nombre { get; set; }
 
-        public int idBanda { get; set; }
+        public List<Recital> recitales { get; set; }
 
-        public ArrayList recitales { get; set; }
-
-        public int prueba { get; set; }
     }
 }

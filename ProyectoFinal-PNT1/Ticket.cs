@@ -6,11 +6,11 @@ namespace ProyectoFinal_PNT1
 {
     class Ticket
     {
-        public int idTicket { get; set; }
+        public int id { get; set; }
         public String nombreCliente { get; set; }
 
         public String dniCliente { get; set; }
 
-        public Array recitales { get; set; }
+        public List<Recital> recitales { get; set; }
     }
 }

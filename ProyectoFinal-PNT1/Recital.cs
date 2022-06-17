@@ -6,12 +6,10 @@ namespace ProyectoFinal_PNT1
 {
     class Recital
     {
-        public int idRecital { get; set; }
+        public int id { get; set; }
 
         public String nombre { get; set; }
 
-        public DateTime fecha { get; set; }
-
-        public DateTime horario { get; set; }
+        public DateTime fecha { get; set;}  //https://www.dotnetperls.com/datetime-format-vbnet PONER TODO JUNTO (FECHA Y HORA)
     }
 }
